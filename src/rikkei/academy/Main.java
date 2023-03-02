@@ -11,7 +11,7 @@ public class Main {
         boolean isExist = false;
         for(int i = 0; i < students.length; i++){
             if(students[i].equals(input_name)){
-                System.out.println("Position of the students in the list " + input_name + "is location : " + (i+1));
+                System.out.println("Position of the students in the list " + input_name + " is index : " + i );
                 isExist = true;
             }
         }
